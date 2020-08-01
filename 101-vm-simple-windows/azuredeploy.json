@@ -52,7 +52,7 @@
     }
   },
   "variables": {
-    "windowsOSVersion":"2019-Datacenter"
+    "windowsOSVersion":"2019-Datacenter",
     "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'sawinvm')]",
     "nicName": "myVMNic",
     "addressPrefix": "10.0.0.0/16",
